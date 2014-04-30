@@ -1,4 +1,3 @@
-
 /**
  * @preserve Copyright (C) 2010 Emweb bvba, Kessel-Lo, Belgium.
  *
@@ -2711,7 +2710,7 @@ function scheduleUpdate() {
   if (quited) {
     if (norestart)
       return;
-    if (confirm("The application was quited, do you want to restart?")) {
+    if (confirm("The application has stopped running, do you want to restart?")) {
       document.location = document.location;
       norestart = true;
       return;
